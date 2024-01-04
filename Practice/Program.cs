@@ -1,10 +1,12 @@
-﻿namespace Practice
+﻿namespace Practice;
+
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        prac app = new prac();
+        CisloGenApp genApp = new CisloGenApp();
+        genApp.Run();
     }
 }
